@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "paper_broken_windows",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About LADINO",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "preproceso.html",
+    "href": "preproceso.html",
+    "title": "Preprocesos",
+    "section": "",
+    "text": "array([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])"
+  },
+  {
+    "objectID": "preproceso.html#plotly",
+    "href": "preproceso.html#plotly",
+    "title": "Preprocesos",
+    "section": "Plotly",
+    "text": "Plotly\n\n\n\n                                                \n\n\n\n\n\n\n\n\n                                                \n(a) Gapminder: 1957\n\n\n\n\n\n                                                \n(b) Gapminder: 2007\n\n\n\nFigure 1: Life Expectancy and GDP"
+  }
+]
