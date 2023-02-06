@@ -3,11 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "Replica: Testing Broken Windows"
-  navbar:
-    left:
-      - href: Base_Datos.qmd
-        text: Base de Datos 
+  sidebar: 
+     style: docked
+     search: true
+     contents: 
+     - section: "Inicio"
+       contents:
+       - index.qmd
+     - section: "Base de Datos"
+       contents:
+       -  Base_Datos.qmd
+
+  #title: "Replica: Testing Broken Windows"
+  #navbar:
+   # left:
+    #  - href: Base_Datos.qmd
+     #   text: Base de Datos 
 
 format:
   html:

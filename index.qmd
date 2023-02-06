@@ -1,5 +1,5 @@
 ---
-title: "Testing Broken Windows Theory in Mexico City: Replica"
+title: "Sobre el artículo"
 ---
 
 This is a Quarto website.
