@@ -1,0 +1,61 @@
+---
+title: "Base de Datos llamadas 911"
+execute:
+  echo: false
+jupyter: python3
+---
+
+### Sección Metodos y Datos
+
+- Variables Independientes
+
+Se identificaron <font color='red'> **ocho** </font> tipos de incidentes del 911 para ser utilizados en la construcción del componente de desorden social: _**intoxicación pública con drogas, intoxicación pública con alcohol, indecencia pública, orinar en público, denuncia de persona en riesgo, disturbios públicos en forma de escándalo callejero. , disturbios públicos en forma de fiestas ruidosas y tirar basura.**_  
+
+Se identificaron <font color='red'> **seis** </font>  tipos de incidentes del 911 para ser utilizados en la construcción del componente de desorden físico: _**vehículo abandonado con placas, graffiti, fuga de agua potable, derrame de aguas residuales, líneas eléctricas caídas y fuga de gas.**_
+
+Se reconoce con base a la "Guía de usuario" <https://datos.cdmx.gob.mx> para las componentes de desorden social y físico las dimensiones relacionadas como se muestra en la @tbl-dimensiones-social y @tbl-dimensiones-fisico
+
+
+
+```{python}
+#| label: tbl-dimensiones-social
+#| tbl-cap: Dimensiones desorden social
+
+from IPython.display import Markdown
+from tabulate import tabulate
+
+table = [["Intoxicación pública con drogas",
+         "Administrativas-Drogados"],
+         ["Intoxicación pública con alcohol","Administrativas-Ebrios",],
+         ["Incidencia pública","N/A"],
+         ["Orinar en público",3390],
+         ["Denuncia de persona en riesgo", "Denuncia-Persona en Riesgo"],
+         ["Disturbios públicos escándalo callejero", "Disturbio-Escándalo"],
+         ["Disturbios públicos fiestas ruidosas", "Disturbio-Escándalo"],
+         ["Tirar basura", "Administrativas-Tirar Basura en Vía Pública"]]
+Markdown(tabulate(
+  table, 
+  headers=["Artículo","Dimensiones 911", ]
+))
+```
+
+
+
+```{python}
+#| label: tbl-dimensiones-fisico
+#| tbl-cap: Dimensiones desorden físico
+
+
+table = [["Vehículo abandonado con placas", "Abandono-Vehículo" ],
+         ["Graffiti", "Administrativas-Grafitis"],
+         ["Fuga de agua potable","Derrame o Fuga-Agua Potable"],
+         ["Derrame de aguas residuales", "Derrame o Fuga-Aguas Negras"],
+         ["Líneas eléctricas caídas", "Servicios-Corto Circuito instalación o subestación eléctrica"],
+         ["Fugas de gas", "Derrame o Fuga-Gas Natural"]
+         ]
+Markdown(tabulate(
+  table, 
+  headers=["Artículo","Dimensiones 911", ]
+))
+```
+

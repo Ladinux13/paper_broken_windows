@@ -3,18 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "UNA REPRODUCCION ppp "
+  title: "Replica: Testing Broken Windows"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: preproceso.qmd
-        text: Preproceso        
-      - about.qmd
+      - href: Base_Datos.qmd
+        text: Base de Datos 
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 
