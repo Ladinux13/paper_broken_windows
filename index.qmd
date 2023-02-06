@@ -1,5 +1,5 @@
 ---
-title: "Sobre el artículo"
+title: "Sobre el Artículo"
 ---
 
 This is a Quarto website.
