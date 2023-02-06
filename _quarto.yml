@@ -12,6 +12,7 @@ website:
 format:
   html:
     theme: flatly
+    mainfont: Montserrat
     css: styles.css
     toc: true
 
