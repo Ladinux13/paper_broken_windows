@@ -2,6 +2,20 @@
 title: "Sobre el Artículo"
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+### To test the broken windows theory in the Mexican context.
+
+**Methods**
+
+Publicly available homicide counts and census data at the neighborhood level were used. Broken windows theory was operationalized through the use of social disorder and physical disorder measures. Measures were both calculated using PCA. For data analysis, we employed four multilevel random intercept models to relate homicide counts to our broken windows components.
+
+**Results**
+
+The social disorder and physical disorder components cannot be seen as operating independently from each other. In addition, the negative interaction term between the two components suggests that the combined impact of social disorder and physical disorder is less than the independent effects, and that the impact of social disorder diminishes as neighborhoods become less physically disordered and vice versa.
+
+**Conclusion**
+
+Findings demonstrate the validity of broken windows theory across countries and offer new ideas to support crime prevention policy.
+
+To learn more about text visit <https://onlinelibrary.wiley.com/doi/10.1111/ssqu.12760>.
